@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../src/imagens/bg-desktop.svg); 
+}
+.principal{
+    width:100%;
+    height:100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.div_imagens{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div_texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.logo{
+    width:210px;
+    height:65px ;
+    margin-right:390px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.templates{
+    width:650px;
+    height:500px ;
+    padding-left: 50px;
+    padding-bottom:50px ;
+}
+h1{
+    width:680px ;
+    height:150px ;
+    color: azure;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: left;
+    word-spacing:2px;
+}
+.mensagem{
+    width:680px ;
+    height:80px ;
+    color: azure;
+    font-family:Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+button{
+    background-color: azure;
+    color:hsl(257, 40%, 49%) ;
+    width: 210px;
+    height: 65px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1px 1px 10px black;
+    font-family:Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;    
+}
+button:hover{
+    transition: 0.1s;
+    background-color:hsl(300, 69%, 71%);
+    color: azure;
+}
+.links{
+    width: 630px;
+    height: 50px;  
+    display: flex;
+    justify-content: end;  
+    gap:10px;
+    border:1px;
+    padding-top: 100px;
+}
+a{    
+    width: 40px;
+    height: 40px; 
+}
